@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9809db5f-24f6-46a9-a911-af291d3453ca" name="Default Changelist" comment="" />
+    <list default="true" id="9809db5f-24f6-46a9-a911-af291d3453ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/43bed559-1b68-49f9-95c1-886dde5b7691-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/595188de-63be-4d88-af25-8c78fb29b373-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/a13e816b-7c3a-4415-a077-d4bd6699b6ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_sample.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +20,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="451">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#1#10#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/API_Requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="700">
               <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -44,6 +51,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,22 +79,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AlphaVantageAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="venvtest1" type="462c0819:PsiDirectoryNode" />
+              <item name="localRepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlphaVantageAPIAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/api_automation_python_test/api_automation_python/xpms_apiautomation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -109,112 +124,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_sample.py">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration name="pytest for test_sample.test_clean" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AlphaVantageAPIAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_sample.test_clean&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_sample.test_one" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -262,21 +184,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for tests.test_sample.test_timeseries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="AlphaVantageAPIAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_sample.test_timeseries&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_sample.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AlphaVantageAPIAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,10 +202,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_sample.py" />
+        <item itemvalue="Python tests.pytest for test_sample.test_clean" />
         <item itemvalue="Python tests.pytest for test_sample.test_timeseries" />
         <item itemvalue="Python tests.pytest for test_sample.test_one" />
         <item itemvalue="Python tests.pytest for tests.test_sample" />
-        <item itemvalue="Python tests.pytest for tests.test_sample.test_timeseries" />
       </list>
     </recent_temporary>
   </component>
@@ -316,46 +223,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 14m 17s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 17m 57s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 18m 09s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 20m 22s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 23m 07s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 24m 36s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 26m 44s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 27m 41s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 29m 00s.xml">
-      <configuration name="pytest in test_sample.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_sample_py - 2021.06.14 at 13h 34m 18s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 20m 44s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 21m 42s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 22m 37s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 24m 03s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 24m 29s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 25m 17s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 25m 35s.xml">
+      <configuration name="pytest in test_sample.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_sample_test_clean - 2021.06.15 at 09h 26m 12s.xml">
+      <configuration name="pytest for test_sample.test_clean" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_sample_py - 2021.06.15 at 09h 26m 19s.xml">
       <configuration name="pytest in test_sample.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,42 +285,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_servicesList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/Payloads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/Utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html" />
+    <entry file="file://$PROJECT_DIR$/tests/test_servicesList.py" />
+    <entry file="file://$PROJECT_DIR$/utility/Payloads.py" />
+    <entry file="file://$PROJECT_DIR$/utility/Utilities.py" />
     <entry file="file://$PROJECT_DIR$/test_data/Config.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -430,12 +307,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/API_Requests.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_sample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        <state relative-caret-position="451">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,12 +324,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_sample.py">
+    <entry file="file://$PROJECT_DIR$/utility/API_Requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        <state relative-caret-position="700">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
           <folding>
-            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

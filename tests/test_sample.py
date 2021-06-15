@@ -1,4 +1,6 @@
 import os
+import glob
+import shutil
 
 from utility.API_Requests import API_Request
 from utility.ConfigFileReader import ConfigFileReader
@@ -23,6 +25,15 @@ alpha_endpoint = config_reader.get_value_of(os.path.abspath('')+'/test_data/Conf
 
 
 
+
+def test_clean():
+    files_path = os.path.abspath('')+'/reports/*'
+    filelist = glob.glob(files_path)
+    for file in filelist:
+        print(file)
+        os.remove(file)
+    if os.path.isdir(os.path.abspath('')+'/allure-report'):
+        shutil.rmtree(os.path.abspath('')+'/allure-report')
 
 
 def test_timeseries():
